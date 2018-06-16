@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    tools:context="torach.java_conf.gr.jp.stockcalculater.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textMenu"
+            android:textColor="#4689FF"
+            android:textSize="36sp"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="55dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="270dp"
+            android:layout_height="90dp"
+            android:text="@string/button1"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="144dp"
+            android:background="@drawable/button_state"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="271dp"
+            android:layout_height="90dp"
+            android:text="@string/button2"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="278dp"
+            android:background="@drawable/button_state"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="500dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8672150310568733/9461632953">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

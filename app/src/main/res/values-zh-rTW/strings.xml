@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">股票</string>
+    <string name="textMenu">利潤計算菜單</string>
+    <string name="button1">計算銷售價格</string>
+    <string name="button2">計算利潤率</string>
+    <string name="textBuy1">出價（元）</string>
+    <string name="cal_button_profit">計算</string>
+    <string name="clear_button_profit">清除</string>
+    <string name="back_button_profit">回報</string>
+    <string name="text_buy_profit">出價（元）</string>
+    <string name="text_sell_profit">售價（元）</string>
+    <string name="text_rate_profit">利潤率（％）</string>
+    <string name="text_buy_sell">出價（元）</string>
+    <string name="text_rate_sell">目標利潤率（％）</string>
+    <string name="text_result_sell">售價（元）</string>
+    <string name="text_percent">％</string>
+    <string name="cal_button_sell">計算</string>
+    <string name="clear_button_sell">清除</string>
+    <string name="back_button_sell">回報</string>
+    <string name="exist_non_imp">"沒有輸入數據"</string>
+    <string name="no_imp_data">"沒有輸入數據"</string>
+
+</resources>

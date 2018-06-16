@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Stock Trade Calculator</string>
+    <string name="textMenu">Calculation Menu</string>
+    <string name="button1">Selling Price</string>
+    <string name="button2">Profit Rate</string>
+    <string name="textBuy1">Buying Price($)</string>
+    <string name="cal_button_profit">Calculate</string>
+    <string name="clear_button_profit">Clear</string>
+    <string name="back_button_profit">Back</string>
+    <string name="text_buy_profit">Buying Price($)</string>
+    <string name="text_sell_profit">Selling Price($)</string>
+    <string name="text_rate_profit">Profit Rate(%)</string>
+    <string name="text_buy_sell">Buying Price($)</string>
+    <string name="text_rate_sell">Target Profit Rate(%)</string>
+    <string name="text_result_sell">Selling Price($)</string>
+    <string name="text_percent">%</string>
+    <string name="cal_button_sell">Calculate</string>
+    <string name="clear_button_sell">Clear</string>
+    <string name="back_button_sell">Back</string>
+    <string name="exist_non_imp">"Non-Imput Data Exist"</string>
+    <string name="no_imp_data">"No Imput Data"</string>
+
+</resources>

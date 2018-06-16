@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">株計算</string>
+    <string name="textMenu">利益計算メニュー</string>
+    <string name="button1">売値を計算</string>
+    <string name="button2">利益率を計算</string>
+    <string name="textBuy1">買値（円）</string>
+    <string name="cal_button_profit">計算する</string>
+    <string name="clear_button_profit">クリア</string>
+    <string name="back_button_profit">戻る</string>
+    <string name="text_buy_profit">買値（円）</string>
+    <string name="text_sell_profit">売値（円）</string>
+    <string name="text_rate_profit">利益率（％）</string>
+    <string name="text_buy_sell">買値（円）</string>
+    <string name="text_rate_sell">目標とする利益率（％）</string>
+    <string name="text_result_sell">売値（円）</string>
+    <string name="text_percent">％</string>
+    <string name="cal_button_sell">計算する</string>
+    <string name="clear_button_sell">クリア</string>
+    <string name="back_button_sell">戻る</string>
+    <string name="exist_non_imp">"未入力データあり"</string>
+    <string name="no_imp_data">"入力データなし"</string>
+
+</resources>

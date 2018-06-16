@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    tools:context="torach.java_conf.gr.jp.stockcalculater.Profit">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/text_buy_profit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_buy_profit"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+        <EditText
+            android:id="@+id/value_buy_profit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="79dp" />
+
+    <TextView
+        android:id="@+id/text_sell_profit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_sell_profit"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+        <EditText
+            android:id="@+id/value_sell_profit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="197dp" />
+
+
+    <TextView
+        android:id="@+id/text_rate_profit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_rate_profit"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="272dp" />
+   <TextView
+       android:id="@+id/display_result_profit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=""
+       android:textSize="40sp"
+       android:layout_marginLeft="50dp"
+       tools:layout_editor_absoluteX="163dp"
+       tools:layout_editor_absoluteY="300dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="365dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <Button
+        android:id="@+id/cal_button_profit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cal_button_profit"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="10dp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="398dp"
+        android:background="@drawable/button_state"/>
+
+    <Button
+        android:id="@+id/clear_button_profit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_button_profit"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="398dp"
+        android:background="@drawable/button_state"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="420dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <Button
+        android:id="@+id/back_button_profit"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:text="@string/back_button_profit"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="458dp"
+        android:background="@drawable/button_state"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="500dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8672150310568733/9461632953">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
