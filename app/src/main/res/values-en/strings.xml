@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Stock Trade Calculator</string>
+    <string name="app_name">Stock Profit Calculator</string>
     <string name="textMenu">Calculation Menu</string>
     <string name="button1">Selling Price</string>
     <string name="button2">Profit Rate</string>
