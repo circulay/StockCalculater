@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">株利益計算</string>
+    <string name="app_name">株計算</string>
     <string name="textMenu">利益計算メニュー</string>
     <string name="button1">売値を計算</string>
     <string name="button2">利益率を計算</string>
